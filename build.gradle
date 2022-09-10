@@ -1,0 +1,40 @@
+apply from: 'libraries.gradle'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'org.owasp:dependency-check-gradle:6.1.5'
+    }
+}
+
+allprojects {
+    apply plugin: 'idea'
+    apply plugin: 'eclipse'
+    apply plugin: 'org.owasp.dependencycheck'
+
+    group = 'org.jpos.ee'
+    version = '2.2.9-SNAPSHOT'
+
+    gradle.projectsEvaluated {
+        tasks.withType(JavaCompile) {
+            options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+        }
+    }
+}
+
+subprojects {
+    apply from: "${rootProject.projectDir}/publishing.gradle"
+    if (name != 'bom') {
+        apply from: "${rootProject.projectDir}/subprojects.gradle"
+    }
+}
+
+// Configure IDEA to use Git
+idea.project.ipr {
+  withXml { provider ->
+    provider.node.component.find { it.@name == 'VcsDirectoryMappings' }.mapping.@vcs = 'Git'
+  }
+}
+

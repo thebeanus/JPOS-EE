@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg height='482pt' preserveAspectRatio='xMidYMid meet' viewBox='0.00 0.00 606.00 482.00' width='606pt' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<g class='graph' id='graph0' transform='scale(1 1) rotate(0) translate(4 478)'>
+<title>eeuser</title>
+<polygon fill='white' points='-4,4 -4,-478 602,-478 602,4 -4,4' stroke='none'/>
+
+<g class='node' id='node1'>
+<title>user</title>
+<polygon fill='none' points='419,-402 275,-402 275,-366 419,-366 419,-402' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='347' y='-380.3'>user</text>
+</g>
+
+<g class='node' id='node4'>
+<title>consumer</title>
+<ellipse cx='205' cy='-287' fill='none' rx='43' ry='43' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='205' y='-283.3'>consumer</text>
+</g>
+
+<g class='edge' id='edge5'>
+<title>user&#45;&gt;consumer</title>
+<path d='M318.31,-365.88C301.67,-355.75 280.42,-342.5 262,-330 257.18,-326.73 252.19,-323.23 247.26,-319.69' fill='none' stroke='black'/>
+<polygon fill='black' points='249.21,-316.78 239.05,-313.76 245.1,-322.45 249.21,-316.78' stroke='black'/>
+</g>
+
+<g class='node' id='node5'>
+<title>role</title>
+<ellipse cx='205' cy='-165' fill='none' rx='43' ry='43' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='205' y='-161.3'>role</text>
+</g>
+
+<g class='edge' id='edge6'>
+<title>user&#45;&gt;role</title>
+<path d='M326.94,-365.81C316.45,-356.08 303.97,-343.23 295,-330 271.54,-295.42 277.11,-280.63 257,-244 250.57,-232.29 242.92,-220.07 235.49,-208.87' fill='none' stroke='black'/>
+<polygon fill='black' points='238.36,-206.87 229.88,-200.53 232.56,-210.78 238.36,-206.87' stroke='black'/>
+</g>
+
+<g class='node' id='node7'>
+<title>props</title>
+<ellipse cx='347' cy='-287' fill='none' rx='43' ry='43' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='347' y='-283.3'>props</text>
+</g>
+
+<g class='edge' id='edge2'>
+<title>user&#45;&gt;props</title>
+<path d='M347,-365.58C347,-358.34 347,-349.51 347,-340.45' fill='none' stroke='black'/>
+<polygon fill='black' points='350.5,-340.18 347,-330.18 343.5,-340.18 350.5,-340.18' stroke='black'/>
+</g>
+
+<g class='node' id='node8'>
+<title>history</title>
+<ellipse cx='451' cy='-287' fill='none' rx='43' ry='43' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='451' y='-283.3'>history</text>
+</g>
+
+<g class='edge' id='edge3'>
+<title>user&#45;&gt;history</title>
+<path d='M366.08,-365.58C378.88,-353.88 396.2,-338.06 411.86,-323.75' fill='none' stroke='black'/>
+<polygon fill='black' points='414.36,-326.21 419.39,-316.88 409.64,-321.04 414.36,-326.21' stroke='black'/>
+</g>
+
+<g class='node' id='node9'>
+<title>revision</title>
+<ellipse cx='555' cy='-287' fill='none' rx='43' ry='43' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='555' y='-283.3'>revision</text>
+</g>
+
+<g class='edge' id='edge4'>
+<title>user&#45;&gt;revision</title>
+<path d='M413.68,-365.99C442.17,-357.32 475.19,-345.32 503,-330 507.16,-327.71 511.33,-325.07 515.38,-322.26' fill='none' stroke='black'/>
+<polygon fill='black' points='517.52,-325.04 523.52,-316.31 513.39,-319.39 517.52,-325.04' stroke='black'/>
+</g>
+
+<g class='node' id='node2'>
+<title>visitor</title>
+<polygon fill='none' points='419,-474 275,-474 275,-438 419,-438 419,-474' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='347' y='-452.3'>visitor</text>
+</g>
+
+<g class='edge' id='edge1'>
+<title>visitor&#45;&gt;user</title>
+<path d='M347,-437.7C347,-429.98 347,-420.71 347,-412.11' fill='none' stroke='black'/>
+<polygon fill='black' points='350.5,-412.1 347,-402.1 343.5,-412.1 350.5,-412.1' stroke='black'/>
+</g>
+
+<g class='node' id='node3'>
+<title>realm</title>
+<polygon fill='none' points='144,-305 0,-305 0,-269 144,-269 144,-305' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='72' y='-283.3'>realm</text>
+</g>
+
+<g class='edge' id='edge7'>
+<title>realm&#45;&gt;role</title>
+<path d='M91.06,-268.81C110.52,-251.25 141.3,-223.48 165.96,-201.22' fill='none' stroke='black'/>
+<polygon fill='black' points='168.32,-203.81 173.4,-194.51 163.63,-198.61 168.32,-203.81' stroke='black'/>
+</g>
+
+<g class='edge' id='edge8'>
+<title>consumer&#45;&gt;role</title>
+<path d='M205,-243.69C205,-235.54 205,-226.9 205,-218.47' fill='none' stroke='black'/>
+<polygon fill='black' points='208.5,-218.33 205,-208.33 201.5,-218.33 208.5,-218.33' stroke='black'/>
+</g>
+
+<g class='edge' id='edge9'>
+<title>role&#45;&gt;role</title>
+<path d='M241.62,-187.84C255.02,-188.46 266,-180.85 266,-165 266,-153.36 260.08,-146.17 251.63,-143.41' fill='none' stroke='black'/>
+<polygon fill='black' points='251.98,-139.93 241.62,-142.16 251.11,-146.87 251.98,-139.93' stroke='black'/>
+</g>
+
+<g class='node' id='node6'>
+<title>permissions</title>
+<ellipse cx='205' cy='-43' fill='none' rx='43' ry='43' stroke='black'/>
+<text font-family='Times,serif' font-size='14.00' text-anchor='middle' x='205' y='-39.3'>permissions</text>
+</g>
+
+<g class='edge' id='edge10'>
+<title>role&#45;&gt;permissions</title>
+<path d='M205,-121.69C205,-113.54 205,-104.9 205,-96.47' fill='none' stroke='black'/>
+<polygon fill='black' points='208.5,-96.33 205,-86.33 201.5,-96.33 208.5,-96.33' stroke='black'/>
+</g>
+</g>
+</svg>
