@@ -1,0 +1,20 @@
+*.swp
+.DS_Store
+modules/*/bin
+.vscode/
+# IDEA Ignores
+*.iml
+*.ipr
+*.iws
+.libs/
+.idea/
+out/
+# Eclipse Ignores
+.classpath
+.metadata
+.project
+.settings/
+Servers
+# Gradle Ignores
+.gradle
+build/
